@@ -51,3 +51,64 @@ void ClapTrap::beRepaired(unsigned int amount)
 	std::cout << "ClapTrap " << _name << " be repaired on "
 			  << amount << ", current health " << _health  << std::endl;
 }
+
+std::string &ClapTrap::getName()
+{
+	return _name;
+}
+
+void ClapTrap::setName(std::string &name)
+{
+	_name = name;
+}
+
+int ClapTrap::getHealth()
+{
+	return _health;
+}
+
+void ClapTrap::setHealth(int health)
+{
+	_health = health;
+}
+
+int ClapTrap::getEnergy()
+{
+	return _energy;
+}
+
+void ClapTrap::setEnergy(int energy)
+{
+	_energy = energy;
+}
+
+int ClapTrap::getAttack()
+{
+	return _attack;
+}
+
+void ClapTrap::setAttack(int attack)
+{
+	_attack = attack;
+}
+
+
+std::string ClapTrap::getName() const
+{
+	return _name;
+}
+
+int ClapTrap::getHealth() const
+{
+	return _health;
+}
+
+int ClapTrap::getEnergy() const
+{
+	return _energy;
+}
+
+int ClapTrap::getAttack() const
+{
+	return _attack;
+}
