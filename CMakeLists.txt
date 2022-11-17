@@ -27,3 +27,15 @@ add_executable(cpp_03_02
         ex02/includes/ScavTrap.hpp
         ex02/includes/FragTrap.hpp)
 target_include_directories(cpp_03_02 PRIVATE ex02/includes/)
+
+add_executable(cpp_03_03
+        ex03/srcs/main.cpp
+        ex03/srcs/ClapTrap.cpp
+        ex03/srcs/ScavTrap.cpp
+        ex03/srcs/FragTrap.cpp
+        ex03/srcs/DiamondTrap.cpp
+        ex03/includes/ClapTrap.hpp
+        ex03/includes/ScavTrap.hpp
+        ex03/includes/FragTrap.hpp
+        ex03/includes/DiamondTrap.hpp)
+target_include_directories(cpp_03_03 PRIVATE ex03/includes/)
